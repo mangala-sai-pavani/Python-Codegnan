@@ -78,7 +78,7 @@ print(a,b,c)
 print(type(a),type(b),type(c))
 #Output: <class 'float'> <class 'int'> <class 'str'>
 
-#str -> float,int(can only convert if string contains only digits/numbers),list,tuple
+#str -> float,int(can only convert if string contains only int values),list,tuple
 a="80" #check more examples of this 
 b=int(a)
 c=float(a)
@@ -97,3 +97,5 @@ print(li,b,t)
 #Output: [1, 2] [1, 2] (1, 2)
 print(type(li),type(b),type(t))
 #Output: <class 'list'> <class 'str'> <class 'tuple'>
+
+#task -convert str to int n perform mathematical operations.
